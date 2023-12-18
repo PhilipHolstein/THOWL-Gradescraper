@@ -8,7 +8,7 @@ A simple web scraper that pulls your grades from the TH OWL server and notifies 
 4. run "sudo docker build -t gradescraper" 
 5. run "docker run --restart unless-stopped gradescraper"
 
-## Remark:
+## Remark
 This gradescraper was created for the THOWL website as of 18.12.2023, if the page is revised the code must be adapted.
-Important:
-## The code is designed for the degree program Computer Engineering, if you study something else it may be that a string in the code needs to be adjusted. (Line 40 in Scraper.py, the number in the string must be changed to the same number that you see when you call up the page in the web browser to see your grade) 
+## Important
+The code is designed for the degree program Computer Engineering, if you study something else it may be that a string in the code needs to be adjusted. (Line 40 in Scraper.py, the number in the string must be changed to the same number that you see when you call up the page in the web browser to see your grade) 
